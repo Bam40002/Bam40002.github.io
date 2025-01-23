@@ -2,9 +2,16 @@
 
 
 body {
-    background-image: url("assets/statbg.png");
+    background-image: url("assets/icon.png");
+    animation-duration: 10s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
+@keyframes example {
+      to {background-position: 184px}
+  }
 
 img.icon {
     width: 200px;
@@ -47,13 +54,14 @@ div.titl {
     width: 1040px;
     margin: auto;
 
-    margin-top: 100px;
+
+    margin-top: 300px;
 }
 
 div.selector {
     border: 10px outset rgb(71, 71, 71);
     background-color: rgb(71, 71, 71);
-    background: url("assets/statbd.png");
+    background: url("assets/CEIL5_1.png");
     text-align: center;
 
     width: 1040px;
